@@ -1,0 +1,18 @@
+Welcome Mr.
+Hawkins
+price per room is 75.0
+Number of rooms reserved:
+Total price after 10% tax:
+3
+247.5
+
+
+name = input("Please enter your name: ")
+print("Welcome Mr. ", name)
+rooms = int(input("How many rooms?: "))
+price = float(input("Select price per room: ")) 
+print("price per room is", price)
+print("Number of rooms reserved: ", rooms) 
+price = (price+(price*10/100))
+total = rooms*price
+print("Total price after 10% tax: ", total)
