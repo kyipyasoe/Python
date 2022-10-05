@@ -1,14 +1,9 @@
-Welcome Mr.
-Hawkins
-price per room is 75.0
-Number of rooms reserved:
-Total price after 10% tax:
-3
-247.5
+
+#Hotel room price calculator including tax.
 
 
 name = input("Please enter your name: ")
-print("Welcome Mr. ", name)
+print("Welcome Mr/Mrs. ", name)
 rooms = int(input("How many rooms?: "))
 price = float(input("Select price per room: ")) 
 print("price per room is", price)
@@ -16,3 +11,14 @@ print("Number of rooms reserved: ", rooms)
 price = (price+(price*10/100))
 total = rooms*price
 print("Total price after 10% tax: ", total)
+
+
+Output
+------
+Please enter your name: Kyi P Soe
+Welcome Mr/Mrs.  Kyi P Soe
+How many rooms?: 2
+Select price per room: 65.95
+price per room is 65.95
+Number of rooms reserved:  2
+Total price after 10% tax:  145.09
