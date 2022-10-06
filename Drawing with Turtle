@@ -1,8 +1,9 @@
-# Square side by side
+# Two square side by side
 
 
 
 import turtle
+
 length = 40                   #this is the length of edge of square
 for i in range(2):            #this is the number of squares which will be drawn
     for i in range(4):
@@ -11,3 +12,25 @@ for i in range(2):            #this is the number of squares which will be drawn
     turtle.forward(length)
 
 turtle.done()
+
+- - - - - - - - - -
+
+
+# Two square boxes diagonally stacked
+
+
+
+import turtle
+
+length = 40                 # length of edge of square
+for i in range(2):          # the number of squares
+    for i in range(4):
+        turtle.forward(length)
+        turtle.right(90)
+
+    turtle.forward(length)
+    turtle.left(90)         # this helps in creation of diagonal square
+
+turtle.done()
+
+- - - - - - - - - - -
