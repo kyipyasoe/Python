@@ -1,0 +1,13 @@
+# Square side by side
+
+
+
+import turtle
+length = 40                   #this is the length of edge of square
+for i in range(2):            #this is the number of squares which will be drawn
+    for i in range(4):
+        turtle.forward(length)
+        turtle.right(90)
+    turtle.forward(length)
+
+turtle.done()
