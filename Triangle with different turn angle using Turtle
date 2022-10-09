@@ -1,0 +1,29 @@
+# Triangle with different turn angles
+
+
+import turtle
+        
+for i in range(4):
+  for i in range(3):
+    turtle.fd(100)
+    turtle.lt(120)
+  turtle.pu()
+  turtle.fd(20)
+  turtle.rt(90)
+  turtle.fd(20)
+  turtle.lt(120)
+  turtle.pd()
+  
+turtle.done()
+
+  
+  
+- - - - - - - - - - 
+
+
+
+
+
+
+
+
