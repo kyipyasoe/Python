@@ -1,0 +1,20 @@
+CODE
+- - - - -
+def main():
+    n = int(input('Enter number of cookies: '))
+    r = n / 48
+    sugar = r * 1.5
+    butter = r
+    flour = r * 2.75
+    print('You need ' + str(sugar) + ' cups of sugar, ' + str(butter) + ' cups of butter, and ' +
+          str(flour) + ' cups of flour for ' + str(n) + ' cookies.')
+main()
+
+
+
+
+- - - - - -
+Output
+- - - - - 
+Enter number of cookies: 48
+You need 1.5 cups of sugar, 1.0 cups of butter, and 2.75 cups of flour for 48 cookies.
